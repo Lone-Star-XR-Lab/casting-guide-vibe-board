@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Casting a Meta Quest Headset to a Vibe Smart Whiteboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @media print {
+      body { background: white; }
+      .no-print { display: none; }
+      .print-border { border: 2px solid black; }
+    }
+  </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen p-6">
+  <div class="bg-white shadow-xl rounded-2xl p-8 max-w-4xl w-full print-border">
+    <h1 class="text-2xl font-bold text-center mb-6">
+      📡 Casting a Meta Quest Headset to a Vibe Smart Whiteboard
+    </h1>
+    <p class="text-center text-gray-600 mb-6">
+      Supports Meta Quest 2, Quest Pro, and Quest 3<br>
+      <span class="font-semibold">XR Lab — Lone Star College</span>
+    </p>
+
+    <!-- Step 1 -->
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold mb-2 flex items-center">
+        <span class="mr-2">📶</span> 1. Connect Both Devices to the Same Network
+      </h2>
+      <p class="text-gray-700 ml-6">
+        Ensure both the Meta Quest headset and the Vibe board are on <b>LSCS‑VR</b> Wi‑Fi.<br>
+        On the Vibe board: <b>Wi‑Fi settings → Known Networks → LSCS‑VR</b>.
+      </p>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold mb-2 flex items-center">
+        <span class="mr-2">🌐</span> 2. Open Casting Page on the Vibe Board
+      </h2>
+      <p class="text-gray-700 ml-6 mb-4">
+        The casting page is already saved on the Vibe board.<br>
+        Open the Web Browser and select the bookmark: 
+        <a href="https://horizon.meta.com/casting/" class="text-blue-600 underline">horizon.meta.com/casting</a>
+      </p>
+      <img src="images/vibe-casting-page.png" alt="Vibe Casting Page" class="mx-auto border rounded shadow-md max-h-72">
+      <p class="text-center text-sm text-gray-500 mt-2">You should see this screen — leave it open.</p>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold mb-2 flex items-center">
+        <span class="mr-2">🎮</span> 3. Start Casting from the Headset
+      </h2>
+      <ol class="list-decimal ml-6 text-gray-700 mb-4 space-y-4">
+        <li>Put on your Meta Quest headset.</li>
+        <li class="flex items-center">
+          Press the <b class="mr-1">Meta button</b>
+          <img src="images/meta-button-icon.png" alt="Meta Button Icon" class="w-6 h-6 inline-block ml-2">
+        </li>
+        <li>
+          Select the <b>Camera</b> app at the bottom menu.<br>
+          <img src="images/quest-camera.jpg" alt="Quest Camera Menu" class="mt-2 border rounded shadow-md">
+        </li>
+        <li>
+          Choose <b>Cast</b>.<br>
+          <img src="images/quest-cast.jpg" alt="Quest Casting Option" class="mt-2 border rounded shadow-md">
+        </li>
+        <li>
+          Select the <b>Web</b> from the list.<br>
+          <img src="images/quest-web.jpg" alt="Quest Cast To Web" class="mt-2 border rounded shadow-md">
+        </li>
+      </ol>
+    </div>
+
+    <!-- Step 4 -->
+    <div class="mb-6">
+      <h2 class="text-xl font-semibold mb-2 flex items-center">
+        <span class="mr-2">🖥️</span> 4. Final Step on the Vibe Board
+      </h2>
+      <p class="text-gray-700 ml-6 mb-4">
+        Once the feed starts, return to the Vibe board browser and click <b>Full Screen</b> for the best viewing experience.
+      </p>
+      <img src="images/vibe-fullscreen-paint.png" alt="Full Screen Option" class="mx-auto border rounded shadow-md max-h-72">
+    </div>
+
+    <!-- Tips -->
+    <div class="border-t pt-4">
+      <h2 class="text-lg font-bold mb-2">💡 Tips & Troubleshooting</h2>
+      <ul class="list-disc ml-6 text-gray-700">
+        <li><b>Board not showing up in headset?</b> Confirm both devices are on LSCS‑VR.</li>
+        <li><b>Video lagging?</b> Close other apps on the Vibe board.</li>
+        <li><b>Still not working?</b> As every IT pro says: <b>try turning both the headset and the Vibe board off and back on again</b> 😅.</li>
+      </ul>
+    </div>
+
+    <div class="text-center mt-8 font-bold text-lg">⚡ All Set! Your Meta Quest is now casting to the Vibe Smart Whiteboard.</div>
+  </div>
+</body>
+</html>
